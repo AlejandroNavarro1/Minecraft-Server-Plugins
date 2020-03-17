@@ -1,0 +1,22 @@
+name: AntWar
+author: Javascript/ Alejandro N.
+version: 1.0.1
+api: 2.0.0
+main: War\WarPlugin
+
+commands:
+    war:
+        description: "The main command for war"
+        permission: war.cmd
+permissions:
+    war:
+        default: false
+        children:
+             war.cmd:
+                  default: true
+             war.remove:
+                  default: op
+             war.reset:
+                  default: op
+             war.reward:
+                  default: op

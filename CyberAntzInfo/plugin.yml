@@ -1,0 +1,14 @@
+name: CyberAntzInfo
+main: CyberAntzInfo\cyberant
+author: Javascript/Alejandro
+version: 1.0.0
+api: [2.0.0]
+load: POSTWORLD
+commands:
+    cyberant:
+         description: Give Server Info.
+         permission: cyberant.command
+permissions:
+    cyberant.command:
+         default: true
+         description: "Give Server Info."

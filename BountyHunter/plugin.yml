@@ -1,0 +1,25 @@
+name: BountyHunter
+author: Javascript/Alejandro N.
+version: 1.0
+api: 2.0.0
+main: Bounty\BountyMain
+
+commands:
+    bounty:
+        description: "Bounty Main Command."
+        permission: bounty.list
+permissions:
+    bounty:
+        description: "Allow access to all commands."
+        default: false
+        children:
+            bounty.list:
+                default: true
+            bounty.add:
+                default: op
+            bounty.remove:
+                default: op
+            
+          
+        
+

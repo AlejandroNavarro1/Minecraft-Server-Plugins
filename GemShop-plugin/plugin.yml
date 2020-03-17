@@ -1,0 +1,17 @@
+name: GemShop
+author: Javascript/ Alejandro N.
+version: 1.0.0
+api: 2.0.0
+main: Shop\ShopMain
+
+permissions:
+    shop:
+        default: false
+        children:
+            shop.create:
+                  default: op
+                    
+                
+          
+        
+

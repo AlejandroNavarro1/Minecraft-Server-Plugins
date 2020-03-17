@@ -1,0 +1,14 @@
+#max number of players
+max: 20
+#spawn for pregame
+spawnx: 0
+spawny: 0
+spawnz: 0
+#spawn for game
+gamespawnx: 0
+gamespawny: 0
+gamespawnz: 0
+#spawn for server
+realspawnx: 0
+realspawny: 0
+realspawnz: 0
